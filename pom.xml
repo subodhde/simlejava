@@ -22,7 +22,13 @@
   </modules>
 
   <distributionManagement>
-    <site>
+     <repository>
+      <id>deployment</id>
+      <name>Release Repository</name>
+      <url>http://localhost:8082/repository/hello-world-rel/</url>
+    </repository>
+           
+   <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
