@@ -22,12 +22,17 @@
   </modules>
 
   <distributionManagement>
-     <repository>
-      <id>deployment</id>
-      <name>Release Repository</name>
+    <repository>
+      <id>release</id>
+      <name>release</name>
       <url>http://web3:8081/repository/hello-world-rel/</url>
     </repository>
-           
+ 
+    <snapshotRepository>
+      <id>snapshot</id>
+      <name>snapshot</name>
+      <url>http://localhost:8082/repository/hello-world//</url>
+    </snapRepository>
    <site>
       <id>site-server</id>
       <name>Test Project Site</name>
