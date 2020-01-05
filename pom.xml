@@ -23,14 +23,14 @@
 
   <distributionManagement>
     <repository>
-      <id>release</id>
-      <name>release</name>
+      <id>hello-world-rel</id>
+      <name>hello-world-rel</name>
       <url>http://web3:8081/repository/hello-world-rel/</url>
     </repository>
  
     <snapshotRepository>
-      <id>snapshot</id>
-      <name>snapshot</name>
+      <id>hello-world</id>
+      <name>hello-world</name>
       <url>http://localhost:8082/repository/hello-world//</url>
     </snapRepository>
    <site>
